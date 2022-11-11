@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  font-family: "Audiowide", sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+  list-style: none;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+.slogan{color:#fefefe}
+
+.container{margin: 20px;}
+.main{width:100%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
+h1{color:#fff; font-size: 3em; text-align: center;}
+
+.btn-voltar{border:1px solid;color:#020257; padding:5px 10px; border-radius: 20px;}
+
+
+/* FOOTER */
+  /* usei o bg gradiente do btn-menu*/
+  .rodape{width:100%; float:left; text-align: center; padding: 3% 4%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
+  .social-icons a{font-size:1.5em; color:rgba(255,255,255,0.7); margin-right:3%;}
+    /* Tirando o margin-right  do último icone */
+  .social-icons a:last-child{margin-right: 0;}
+  .social-icons a:hover{color:rgb(255,255,255);}
+  .copyright{margin-top: 2%; color:rgba(255,255,255,0.7);}
+
+
+
+
+/* ========= MOBILE FIRST ========== */
+
+/* SMALL DEVICES - SMARTPHONE */
+@media screen and (min-width:480px){
+  .logo{width:160px; background:url(/img/fongas-novo.png) center center/160px no-repeat;}
+  .botoes{font-size:2rem;}
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width:768px){
+  .servico{width:49%; float:left; margin-right:2%;}
+  /* Dividir a tela em 2 cards na horizontal */
+  .servico:nth-child(2){margin-right: 0;}
+  .inner a{font-size:2em;}
+  .inner h4{font-size: 1.5em;}
+  .newsletter h2{font-size:2em;}
+  .newsletter h3{font-size:1.5em;}
+  /* Input à esquerda c/ 70%, botão à direita c/ 29% + 1% (do input) => somatorio doas % = 100*/
+  .newsletter input{width:70%; padding:2%; float:left; margin-right:1%;}
+  .newsletter button{width:29%; padding:2%; float:right; margin-top: 0;}
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+@media screen and (min-width:960px){
+  .title{width:70%; float:left; text-align: left;}
+  .title h1{font-size: 3em;}
+  .title h2{font-size: 2em;}
+  .botoes{width:30%; float:right; margin-top: 2%;}
+  .btn-sobre{margin-top: 10px;}
+  /* colocar 3 cards na horizontal */
+  .servico{width:32%;}
+  .servico:nth-child(2){margin-right: 2%;}
+  .servico:nth-child(3){margin-right: 0;}
+}
+
+/*LARGE DEVICES - WIDE SCREENS */
+@media screen and (min-width:1200px){
+  .btn-menu{display:none;}
+  .btn-close{display:none;}
+  .menu, .logo{display:none;}
+ 
+  .newsletter input, .newsletter button{font-size:1.3em; padding:15px;}
+ header{display:none;}
+  .slogan{display:none;}
+}
