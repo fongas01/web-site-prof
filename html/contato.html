@@ -56,50 +56,52 @@
       !1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdffa573c3cf9%3A0xe7a8c0dbb70c4d78!2sR.
       %20do%20Farmac%C3%AAutico%20-%20Bangu%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%
       2021840-430!5e0!3m2!1spt-BR!2sbr!4v1663136838843!5m2!1spt-BR!2sbr" 
-     width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" 
+     width="600" height="410" allowfullscreen="" loading="lazy" 
      referrerpolicy="no-referrer-when-downgrade">
     </iframe>
 
     <!-- INPUT -->
-    <form action="" method="">
-    <div class="input-field">
-      <label for="name">
+    <form class="contatoForm" action="" method="">
+      <div class="input-field nome">
+        <label for="name">
         Nome:
-      <input type="text" name="name" id="name" required placeholder="Informe o teu nome">
-      </label>
-    </div>
+        <input type="text" name="name" id="name" required placeholder=" Informe o teu nome">
+        </label>
+      </div>
 
-    <div class="input-field">
-      <label for="email">
-      E-mail:
-      <input type="email" name="email" id="email" required placeholder="Teu e-mail">
-      </label>
-    </div>
+      <div class="input-field">
+        <label for="email">
+        E-mail:
+        <input type="email" name="email" id="email" required placeholder=" Teu e-mail">
+        </label>
+      </div>
 
-    <div class="input-field">
-      <label for="subject"> 
-        Assunto:
-      <input type="text" name="subject" id="subject" required placeholder="Assunto">
-      </label>
-    </div>
+      <div class="input-field">
+        <label for="subject"> 
+          Assunto:
+        <input type="text" name="subject" id="subject" >
+        </label>
+      </div>
 
-    <!-- OUTPUT -->
-    <div class="input-field">
-      <label for="message">
-        <textarea id="message" required placeholder="Mensagem"></textarea>
-      </label>
-    </div>
+      <!-- OUTPUT -->
+      <div class="input-field">
+        <label for="message">
+          <textarea id="message" required placeholder=" Mensagem"></textarea>
+        </label>
+      </div>
 
-		<!-- BOTÃO PARA ENVIAR A MENSAGEM -->
-		<button class="btn-enviar" type="submit">Enviar</button>
+      <!-- BOTÃO PARA ENVIAR A MENSAGEM -->
+      <input id="btn-enviar" type="submit" value="Enviar"></input>
     </form>
 
     <br>
 
   </section>
 
+
   <!-- BTN VOLTAR -->
   <a class="btn-voltar" href="/index.html"> <img src="/img/seta-volta.jfif" alt="foto da seta"></a>
+
 
   <!-- FOOTER -->
   <footer class="rodape">
@@ -117,6 +119,7 @@
       <p> Todos os direitos reservados</p>
     </div>
   </footer>
+
 
   <!-- JAVASCRIPT -->
   <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
