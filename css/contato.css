@@ -18,11 +18,12 @@ iframe{margin-bottom:20px; border: solid 2px rgb(231, 231, 231)}
 
 .contatoForm{margin-left: 1rem; width:660px; height:410px;  border:solid 2px rgb(231, 231, 231);}
 .contatoForm .nome{padding-top:10px;}
-input, textarea{width:96%;margin-bottom:15px; border-radius:10px;}
+input, #btn-enviar{width:96%; margin-bottom:15px; border-radius:10px;}
 label, input{margin-left:12px; height:35px;}
-#message{height:6.7rem; }
-#message, input{font-size:0.8rem;}
-#btn-enviar{font-size: 1.001rem; padding-top:0.5rem; padding-bottom:2rem; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff); color:#fefefe;}
+#message{border-radius: 10px; margin-bottom: 12px;}
+#message, input{font-size:0.8rem; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+textarea{margin-left: 0.8rem;}
+#btn-enviar{font-family: "Audiowide", sans-serif; font-size: 1.001rem; padding-top:0.5rem; padding-bottom:2rem; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff); color:#fefefe; cursor: pointer;}
 
 
 /* BOTÃO VOLTAR */

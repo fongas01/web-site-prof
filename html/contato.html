@@ -61,37 +61,40 @@
     </iframe>
 
     <!-- INPUT -->
-    <form class="contatoForm" action="" method="">
+    <form action="https://getform.io/f/2114760f-a323-4b87-862c-37ad1adfd249" method="POST" class="contatoForm">
       <div class="input-field nome">
         <label for="name">
         Nome:
-        <input type="text" name="name" id="name" required placeholder=" Informe o teu nome">
+        <input type="text" id="nome" required placeholder=" Informe o teu nome" name="Nome">
         </label>
       </div>
 
       <div class="input-field">
         <label for="email">
-        E-mail:
-        <input type="email" name="email" id="email" required placeholder=" Teu e-mail">
+        Email:
+        <input type="email" id="email" required placeholder=" Teu email" name="Email">
         </label>
       </div>
 
       <div class="input-field">
         <label for="subject"> 
           Assunto:
-        <input type="text" name="subject" id="subject" >
+        <input type="text" id="assunto" name="Assunto">
         </label>
       </div>
 
       <!-- OUTPUT -->
       <div class="input-field">
         <label for="message">
-          <textarea id="message" required placeholder=" Mensagem"></textarea>
+          Mensagem
+          <textarea name="Mensagem" id="message" cols="76" rows="6" placeholder="Digite sua mensagem aqui"></textarea>
         </label>
       </div>
 
       <!-- BOTÃO PARA ENVIAR A MENSAGEM -->
-      <input id="btn-enviar" type="submit" value="Enviar"></input>
+      <a href="https://getform.io/f/2114760f-a323-4b87-862c-37ad1adfd249">
+        <input id="btn-enviar" type="submit" value="Enviar" name="enviar"></input>
+      </a>
     </form>
 
     <br>
