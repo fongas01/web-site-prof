@@ -50,6 +50,7 @@ img{max-width:100%;}
 
 .btn-cadastrar, .btn-sobre{width:100%; text-align:left; cursor:pointer; padding:2%; border-radius:10px; background-color:#fff; color:#020257; margin-top:2%;}
 .btn-sobre{background-color:#130400; color:#fff;}
+.btn-sobre a{color:#fff;}
 
 /* SERVIÇOS */
 .servicos{width:100%; float:left; padding:2% 3%;}
@@ -59,6 +60,9 @@ img{max-width:100%;}
 .inner a{font-size:1.2em; color:#020257;font-weight:700;}
 .inner h4{font-size: 1em;color:#020257; margin-top:6%;margin-bottom:6%;}
 .inner p{font-size: 0.8em; color:#020257;line-height: 1.5em;}
+
+/* BOTÃO VOLTAR */
+.btn-voltar{border:1px solid;color:#020257; padding:5px 10px; border-radius: 20px;}
 
 /* NEWSLETTER */
 .inner p{font-size: 0.8em; margin-top:2%; color:#020257;line-height: 1.5em;}
