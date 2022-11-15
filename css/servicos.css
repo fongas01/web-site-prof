@@ -25,13 +25,12 @@ p{color:#020257;}
 .cards{width:100%; float:left; padding:2% 3%;}
 .card{width:100%; background-color: #fff; text-align: left; border-radius: 7px; margin-bottom:3%}
 .img-service{border-radius:7px 7px 0 0;}
+.img-service{width:400px; height:300px;}
 
 /*.inner{padding:7%;}*/
 .inner h4{font-size:1.2em; color:#020257;font-weight:700;}
 .inner h5{font-size: 1em;color:#020257; margin-top:6%;margin-bottom:6%;}
 .inner p{font-size: 0.8em; color:#020257;line-height: 1.5em;}
-
-
 
 
 /* BOTÃO VOLTAR */
@@ -45,9 +44,8 @@ p{color:#020257;}
     /* Tirando o margin-right  do último icone */
   .social-icons a:last-child{margin-right: 0;}
   .social-icons a:hover{color:rgb(255,255,255);}
-  .copyright{margin-top: 2%; color:rgba(255,255,255,0.7);}
-
-
+  .copyright {margin-top: 2%; }
+.copyright p{color:rgba(255,255,255,0.7);}
 
 
 /* ========= MOBILE FIRST ========== */
@@ -70,14 +68,14 @@ p{color:#020257;}
 /* MEDIUM DEVICES - TABLETS & DESKTOPS */
 @media screen and (min-width:960px){
   .title{width:70%; float:left; text-align: left;}
-  .title h1{font-size: 3em;}
-  .title h2{font-size: 2em;}
+  h1{font-size: 3em;}
+  h2{font-size: 2em;}
   .botoes{width:30%; float:right; margin-top: 2%;}
   .btn-sobre{margin-top: 10px;}
   /* colocar 3 cards na horizontal */
-  .servico{width:32%;}
-  .servico:nth-child(2){margin-right: 2%;}
-  .servico:nth-child(3){margin-right: 0;}
+  .card{width:32%;}
+  .card:nth-child(2){margin-right: 2%;}
+  .card:nth-child(3){margin-right: 0;}
 }
 
 /*LARGE DEVICES - WIDE SCREENS */
@@ -85,8 +83,6 @@ p{color:#020257;}
   .btn-menu{display:none;}
   .btn-close{display:none;}
   .menu, .logo{display:none;}
- 
-  .newsletter input, .newsletter button{font-size:1.3em; padding:15px;}
   header{display:none;}
   .slogan{display:none;}
 }
