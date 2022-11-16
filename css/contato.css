@@ -53,14 +53,10 @@ textarea{margin-left: 0.8rem;}
 @media screen and (min-width:768px){
   .servico{width:49%; float:left; margin-right:2%;}
   /* Dividir a tela em 2 cards na horizontal */
-  .servico:nth-child(2){margin-right: 0;}
+  form:nth-child(){margin-right: 0;}
   .inner a{font-size:2em;}
   .inner h4{font-size: 1.5em;}
-  .newsletter h2{font-size:2em;}
-  .newsletter h3{font-size:1.5em;}
-  /* Input à esquerda c/ 70%, botão à direita c/ 29% + 1% (do input) => somatorio doas % = 100*/
-  .newsletter input{width:70%; padding:2%; float:left; margin-right:1%;}
-  .newsletter button{width:29%; padding:2%; float:right; margin-top: 0;}
+  
 }
 
 /* MEDIUM DEVICES - TABLETS & DESKTOPS */
@@ -70,10 +66,11 @@ textarea{margin-left: 0.8rem;}
   .title h2{font-size: 2em;}
   .botoes{width:30%; float:right; margin-top: 2%;}
   .btn-sobre{margin-top: 10px;}
-  /* colocar 3 cards na horizontal */
-  .servico{width:32%;}
-  .servico:nth-child(2){margin-right: 2%;}
-  .servico:nth-child(3){margin-right: 0;}
+
+  /* colocar 2 cards na horizontal */
+  .form{width:32%;}
+  .form:nth-child(2){margin-right: 2%;}
+  .form:nth-child(3){margin-right: 0;}
 }
 
 /*LARGE DEVICES - WIDE SCREENS */
@@ -83,6 +80,6 @@ textarea{margin-left: 0.8rem;}
   .menu, .logo{display:none;}
  
   .newsletter input, .newsletter button{font-size:1.3em; padding:15px;}
- header{display:none;}
+  header{display:none;}
   .slogan{display:none;}
 }

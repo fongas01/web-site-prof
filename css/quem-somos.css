@@ -15,6 +15,9 @@
 .main{width:100%; background:linear-gradient(to right,hsl(240, 98%, 19%),#0000ff);}
 h1{color:#fff; font-size: 3em; text-align: center;}
 
+.banner3{width:60%;margin-left:15em;margin-right:-15em }
+
+
 
 /* BOTÃO VOLTAR */
 .btn-voltar{ width:40px; height:40px; float:right; margin-right:1rem; margin-bottom:1rem;  }

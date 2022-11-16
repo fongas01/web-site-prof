@@ -25,9 +25,8 @@ p{color:#020257;}
 .cards{width:100%; float:left; padding:2% 3%;}
 .card{width:100%; background-color: #fff; text-align: left; border-radius: 7px; margin-bottom:3%}
 .img-service{border-radius:7px 7px 0 0;}
-.img-service{width:400px; height:300px;}
-
-/*.inner{padding:7%;}*/
+.img-service{width:407px; height:300px;}
+.inner{padding:-20%;}
 .inner h4{font-size:1.2em; color:#020257;font-weight:700;}
 .inner h5{font-size: 1em;color:#020257; margin-top:6%;margin-bottom:6%;}
 .inner p{font-size: 0.8em; color:#020257;line-height: 1.5em;}
